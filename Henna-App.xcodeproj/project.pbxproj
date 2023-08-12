@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266D19B02A865A1E00A380BA /* AuthintecationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266D19AF2A865A1E00A380BA /* AuthintecationViewController.swift */; };
+		26BE2FB72A87B9F900B040BF /* AuthintecationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BE2FB62A87B9F900B040BF /* AuthintecationExtension.swift */; };
+		26FBAF882A8114C70046EBA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBAF872A8114C70046EBA7 /* AppDelegate.swift */; };
+		26FBAF8A2A8114C70046EBA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBAF892A8114C70046EBA7 /* SceneDelegate.swift */; };
+		26FBAF8F2A8114C70046EBA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FBAF8D2A8114C70046EBA7 /* Main.storyboard */; };
+		26FBAF922A8114C70046EBA7 /* Henna_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26FBAF902A8114C70046EBA7 /* Henna_App.xcdatamodeld */; };
+		26FBAF942A8114CA0046EBA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FBAF932A8114CA0046EBA7 /* Assets.xcassets */; };
+		26FBAF972A8114CA0046EBA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FBAF952A8114CA0046EBA7 /* LaunchScreen.storyboard */; };
+		26FBAFA22A8114CB0046EBA7 /* Henna_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBAFA12A8114CB0046EBA7 /* Henna_AppTests.swift */; };
+		26FBAFAC2A8114CB0046EBA7 /* Henna_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBAFAB2A8114CB0046EBA7 /* Henna_AppUITests.swift */; };
+		26FBAFAE2A8114CB0046EBA7 /* Henna_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBAFAD2A8114CB0046EBA7 /* Henna_AppUITestsLaunchTests.swift */; };
+		26FBAFC12A811B3A0046EBA7 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBAFC02A811B3A0046EBA7 /* OnBoardingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26FBAF9E2A8114CB0046EBA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26FBAF7C2A8114C70046EBA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26FBAF832A8114C70046EBA7;
+			remoteInfo = "Henna-App";
+		};
+		26FBAFA82A8114CB0046EBA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26FBAF7C2A8114C70046EBA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26FBAF832A8114C70046EBA7;
+			remoteInfo = "Henna-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		266D19AF2A865A1E00A380BA /* AuthintecationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthintecationViewController.swift; sourceTree = "<group>"; };
+		26BE2FB62A87B9F900B040BF /* AuthintecationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthintecationExtension.swift; sourceTree = "<group>"; };
+		26FBAF842A8114C70046EBA7 /* Henna-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Henna-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FBAF872A8114C70046EBA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26FBAF892A8114C70046EBA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26FBAF8E2A8114C70046EBA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26FBAF912A8114C70046EBA7 /* Henna_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Henna_App.xcdatamodel; sourceTree = "<group>"; };
+		26FBAF932A8114CA0046EBA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26FBAF962A8114CA0046EBA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26FBAF982A8114CA0046EBA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FBAF9D2A8114CB0046EBA7 /* Henna-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Henna-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FBAFA12A8114CB0046EBA7 /* Henna_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Henna_AppTests.swift; sourceTree = "<group>"; };
+		26FBAFA72A8114CB0046EBA7 /* Henna-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Henna-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FBAFAB2A8114CB0046EBA7 /* Henna_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Henna_AppUITests.swift; sourceTree = "<group>"; };
+		26FBAFAD2A8114CB0046EBA7 /* Henna_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Henna_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26FBAFC02A811B3A0046EBA7 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26FBAF812A8114C70046EBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FBAF9A2A8114CB0046EBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FBAFA42A8114CB0046EBA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266D19AE2A8659FA00A380BA /* authintecation */ = {
+			isa = PBXGroup;
+			children = (
+				266D19AF2A865A1E00A380BA /* AuthintecationViewController.swift */,
+				26BE2FB62A87B9F900B040BF /* AuthintecationExtension.swift */,
+			);
+			path = authintecation;
+			sourceTree = "<group>";
+		};
+		26FBAF7B2A8114C70046EBA7 = {
+			isa = PBXGroup;
+			children = (
+				26FBAF862A8114C70046EBA7 /* Henna-App */,
+				26FBAFA02A8114CB0046EBA7 /* Henna-AppTests */,
+				26FBAFAA2A8114CB0046EBA7 /* Henna-AppUITests */,
+				26FBAF852A8114C70046EBA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26FBAF852A8114C70046EBA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26FBAF842A8114C70046EBA7 /* Henna-App.app */,
+				26FBAF9D2A8114CB0046EBA7 /* Henna-AppTests.xctest */,
+				26FBAFA72A8114CB0046EBA7 /* Henna-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26FBAF862A8114C70046EBA7 /* Henna-App */ = {
+			isa = PBXGroup;
+			children = (
+				26FBAFBC2A8115040046EBA7 /* Core */,
+				26FBAFBB2A8114F10046EBA7 /* Resourses */,
+				26FBAFBD2A81153C0046EBA7 /* Model */,
+				26FBAFBA2A8114DB0046EBA7 /* Moduls */,
+				26FBAF982A8114CA0046EBA7 /* Info.plist */,
+				26FBAF902A8114C70046EBA7 /* Henna_App.xcdatamodeld */,
+			);
+			path = "Henna-App";
+			sourceTree = "<group>";
+		};
+		26FBAFA02A8114CB0046EBA7 /* Henna-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				26FBAFA12A8114CB0046EBA7 /* Henna_AppTests.swift */,
+			);
+			path = "Henna-AppTests";
+			sourceTree = "<group>";
+		};
+		26FBAFAA2A8114CB0046EBA7 /* Henna-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26FBAFAB2A8114CB0046EBA7 /* Henna_AppUITests.swift */,
+				26FBAFAD2A8114CB0046EBA7 /* Henna_AppUITestsLaunchTests.swift */,
+			);
+			path = "Henna-AppUITests";
+			sourceTree = "<group>";
+		};
+		26FBAFBA2A8114DB0046EBA7 /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+				266D19AE2A8659FA00A380BA /* authintecation */,
+				26FBAFBF2A8116950046EBA7 /* On-boarding-Screen */,
+				26FBAFBE2A8115520046EBA7 /* Storyboards */,
+			);
+			path = Moduls;
+			sourceTree = "<group>";
+		};
+		26FBAFBB2A8114F10046EBA7 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				26FBAF932A8114CA0046EBA7 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		26FBAFBC2A8115040046EBA7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				26FBAF872A8114C70046EBA7 /* AppDelegate.swift */,
+				26FBAF892A8114C70046EBA7 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		26FBAFBD2A81153C0046EBA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26FBAFBE2A8115520046EBA7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				26FBAF8D2A8114C70046EBA7 /* Main.storyboard */,
+				26FBAF952A8114CA0046EBA7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		26FBAFBF2A8116950046EBA7 /* On-boarding-Screen */ = {
+			isa = PBXGroup;
+			children = (
+				26FBAFC02A811B3A0046EBA7 /* OnBoardingViewController.swift */,
+			);
+			path = "On-boarding-Screen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26FBAF832A8114C70046EBA7 /* Henna-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FBAFB12A8114CB0046EBA7 /* Build configuration list for PBXNativeTarget "Henna-App" */;
+			buildPhases = (
+				26FBAF802A8114C70046EBA7 /* Sources */,
+				26FBAF812A8114C70046EBA7 /* Frameworks */,
+				26FBAF822A8114C70046EBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Henna-App";
+			productName = "Henna-App";
+			productReference = 26FBAF842A8114C70046EBA7 /* Henna-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26FBAF9C2A8114CB0046EBA7 /* Henna-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FBAFB42A8114CB0046EBA7 /* Build configuration list for PBXNativeTarget "Henna-AppTests" */;
+			buildPhases = (
+				26FBAF992A8114CB0046EBA7 /* Sources */,
+				26FBAF9A2A8114CB0046EBA7 /* Frameworks */,
+				26FBAF9B2A8114CB0046EBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26FBAF9F2A8114CB0046EBA7 /* PBXTargetDependency */,
+			);
+			name = "Henna-AppTests";
+			productName = "Henna-AppTests";
+			productReference = 26FBAF9D2A8114CB0046EBA7 /* Henna-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26FBAFA62A8114CB0046EBA7 /* Henna-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FBAFB72A8114CB0046EBA7 /* Build configuration list for PBXNativeTarget "Henna-AppUITests" */;
+			buildPhases = (
+				26FBAFA32A8114CB0046EBA7 /* Sources */,
+				26FBAFA42A8114CB0046EBA7 /* Frameworks */,
+				26FBAFA52A8114CB0046EBA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26FBAFA92A8114CB0046EBA7 /* PBXTargetDependency */,
+			);
+			name = "Henna-AppUITests";
+			productName = "Henna-AppUITests";
+			productReference = 26FBAFA72A8114CB0046EBA7 /* Henna-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26FBAF7C2A8114C70046EBA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					26FBAF832A8114C70046EBA7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					26FBAF9C2A8114CB0046EBA7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 26FBAF832A8114C70046EBA7;
+					};
+					26FBAFA62A8114CB0046EBA7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 26FBAF832A8114C70046EBA7;
+					};
+				};
+			};
+			buildConfigurationList = 26FBAF7F2A8114C70046EBA7 /* Build configuration list for PBXProject "Henna-App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26FBAF7B2A8114C70046EBA7;
+			productRefGroup = 26FBAF852A8114C70046EBA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26FBAF832A8114C70046EBA7 /* Henna-App */,
+				26FBAF9C2A8114CB0046EBA7 /* Henna-AppTests */,
+				26FBAFA62A8114CB0046EBA7 /* Henna-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26FBAF822A8114C70046EBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FBAF972A8114CA0046EBA7 /* LaunchScreen.storyboard in Resources */,
+				26FBAF942A8114CA0046EBA7 /* Assets.xcassets in Resources */,
+				26FBAF8F2A8114C70046EBA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FBAF9B2A8114CB0046EBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FBAFA52A8114CB0046EBA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26FBAF802A8114C70046EBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FBAF922A8114C70046EBA7 /* Henna_App.xcdatamodeld in Sources */,
+				26BE2FB72A87B9F900B040BF /* AuthintecationExtension.swift in Sources */,
+				26FBAF882A8114C70046EBA7 /* AppDelegate.swift in Sources */,
+				26FBAF8A2A8114C70046EBA7 /* SceneDelegate.swift in Sources */,
+				26FBAFC12A811B3A0046EBA7 /* OnBoardingViewController.swift in Sources */,
+				266D19B02A865A1E00A380BA /* AuthintecationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FBAF992A8114CB0046EBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FBAFA22A8114CB0046EBA7 /* Henna_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FBAFA32A8114CB0046EBA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FBAFAC2A8114CB0046EBA7 /* Henna_AppUITests.swift in Sources */,
+				26FBAFAE2A8114CB0046EBA7 /* Henna_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26FBAF9F2A8114CB0046EBA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26FBAF832A8114C70046EBA7 /* Henna-App */;
+			targetProxy = 26FBAF9E2A8114CB0046EBA7 /* PBXContainerItemProxy */;
+		};
+		26FBAFA92A8114CB0046EBA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26FBAF832A8114C70046EBA7 /* Henna-App */;
+			targetProxy = 26FBAFA82A8114CB0046EBA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26FBAF8D2A8114C70046EBA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FBAF8E2A8114C70046EBA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26FBAF952A8114CA0046EBA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FBAF962A8114CA0046EBA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FBAFAF2A8114CB0046EBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26FBAFB02A8114CB0046EBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26FBAFB22A8114CB0046EBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Henna-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "youssef.Henna-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26FBAFB32A8114CB0046EBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Henna-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "youssef.Henna-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26FBAFB52A8114CB0046EBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "youssef.Henna-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Henna-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Henna-App";
+			};
+			name = Debug;
+		};
+		26FBAFB62A8114CB0046EBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "youssef.Henna-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Henna-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Henna-App";
+			};
+			name = Release;
+		};
+		26FBAFB82A8114CB0046EBA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "youssef.Henna-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Henna-App";
+			};
+			name = Debug;
+		};
+		26FBAFB92A8114CB0046EBA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "youssef.Henna-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Henna-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FBAF7F2A8114C70046EBA7 /* Build configuration list for PBXProject "Henna-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FBAFAF2A8114CB0046EBA7 /* Debug */,
+				26FBAFB02A8114CB0046EBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FBAFB12A8114CB0046EBA7 /* Build configuration list for PBXNativeTarget "Henna-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FBAFB22A8114CB0046EBA7 /* Debug */,
+				26FBAFB32A8114CB0046EBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FBAFB42A8114CB0046EBA7 /* Build configuration list for PBXNativeTarget "Henna-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FBAFB52A8114CB0046EBA7 /* Debug */,
+				26FBAFB62A8114CB0046EBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FBAFB72A8114CB0046EBA7 /* Build configuration list for PBXNativeTarget "Henna-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FBAFB82A8114CB0046EBA7 /* Debug */,
+				26FBAFB92A8114CB0046EBA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26FBAF902A8114C70046EBA7 /* Henna_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26FBAF912A8114C70046EBA7 /* Henna_App.xcdatamodel */,
+			);
+			currentVersion = 26FBAF912A8114C70046EBA7 /* Henna_App.xcdatamodel */;
+			path = Henna_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26FBAF7C2A8114C70046EBA7 /* Project object */;
+}
